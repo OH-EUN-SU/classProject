@@ -6,7 +6,7 @@ public class MenuManager {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		Lesson_Manager std_m = new Lesson_Manager();
+		LessonManagementSystem std_m = new LessonManagementSystem();
 		int n = 0;
 		
 		while(n != 5)

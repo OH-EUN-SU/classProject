@@ -6,7 +6,7 @@ public class LessonManagementSystem {
 	
 	Scanner input = new Scanner(System.in);
 	
-	Lesson_Manager() {
+	LessonManagementSystem() {
 
 	}
 	
