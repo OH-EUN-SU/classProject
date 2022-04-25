@@ -34,7 +34,7 @@ public class MenuManager {
 			}
 			else if(n == 5) {
 				continue;
-			}
+			} 
 	         else if(n >= 6)
 	         {
 	            System.out.println("1-5 사이의 숫자를 고르시오");
