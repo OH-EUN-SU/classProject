@@ -66,7 +66,7 @@ public class LessonManagementSystem {
 		}
 	}
 
-	public void viewLesson() {//모든 과외생들의 정보를 출력하는 함수 
+	public void viewLesson() {									//모든 과외생들의 정보를 출력하는 함수 
 		for(int i =0;i <cslist.size(); i++)	{
 			cslist.get(i).printInfo();
 		}
