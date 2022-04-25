@@ -60,7 +60,6 @@ public class LessonManagementSystem {
 			cs.setGoal(input.nextLine());
 			cs.setSubject();
 			System.out.println("");
-			
 			System.out.println("");
 			this.cslist.add(number, cs);
 		}
