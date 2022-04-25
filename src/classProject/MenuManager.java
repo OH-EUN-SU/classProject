@@ -1,14 +1,13 @@
 package classProject;
+
 import java.util.*;
 
 public class MenuManager {
 
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in);
 		LessonManagementSystem std_m = new LessonManagementSystem();
 		int n = 0;
-		
 		while(n != 5)
 		{
 			System.out.println("*** Private Lesson Management System Menu ***");
@@ -21,7 +20,6 @@ public class MenuManager {
 			n = input.nextInt();
 			input.nextLine();
 			System.out.println("");
-
 			if(n == 1) {
 				std_m.addStudents();
 			}
