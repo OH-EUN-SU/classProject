@@ -32,5 +32,13 @@ public class Student {
 	{
 		return this.goal;
 	}
+	
+	public void printInfo()
+	{
+		System.out.println("이름: " + getName());
+		System.out.println("전화번호: " + getPN());
+		System.out.println("목표등급: " + getGoal());
+		System.out.println();
+	}
 }
 
