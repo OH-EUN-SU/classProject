@@ -10,7 +10,7 @@ public class LessonManagementSystem {
 	Scanner input = new Scanner(System.in);
 	
 	LessonManagementSystem() {
-
+		
 	}
 	
 	public void addStudents() {									//과외생을 추가하는 함수

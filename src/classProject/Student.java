@@ -4,6 +4,16 @@ public class Student {
 	private String name;
 	private String pn;
 	private String goal;
+
+	public static void TeacherGoal(String a, String b)
+	{
+		System.out.println(a +" "+b);
+	}
+	
+	public static void TeacherGoal(String c)
+	{
+		System.out.println(c);
+	}
 	
 	public void setName(String name)
 	{
