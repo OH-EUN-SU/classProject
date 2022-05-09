@@ -1,18 +1,18 @@
 package classProject;
 
-public class Student {
+abstract public class Student {
 	private String name;
 	private String pn;
 	private String goal;
 
-	public static void TeacherGoal(String a, String b)
+	public static void TeacherName(String a, String b)
 	{
 		System.out.println(a +" "+b);
 	}
 	
-	public static void TeacherGoal(String c)
+	public static void TeacherName(String c)
 	{
-		System.out.println(c);
+		System.out.print(c);
 	}
 	
 	public void setName(String name)
@@ -43,12 +43,6 @@ public class Student {
 		return this.goal;
 	}
 	
-	public void printInfo()
-	{
-		System.out.println("이름: " + getName());
-		System.out.println("전화번호: " + getPN());
-		System.out.println("목표등급: " + getGoal());
-		System.out.println();
-	}
+	public abstract void printInfo();
 }
 

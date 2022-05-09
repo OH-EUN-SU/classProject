@@ -3,8 +3,6 @@ package classProject;
 import java.util.*;
 
 public class MenuManager {
-
-
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -48,3 +46,5 @@ public class MenuManager {
 		 System.out.println("End.");
 	}
 }
+
+
