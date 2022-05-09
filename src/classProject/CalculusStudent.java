@@ -5,19 +5,15 @@ import java.util.Scanner;
 public class CalculusStudent extends Student implements Subject {
 	private String subject;
 	
-	
-	public void setSubject()
-	{
+	public void setSubject() {
 		this.subject = "Calculus";
 	}
 	
-	public String getSubject()
-	{
+	public String getSubject() {
 		return this.subject;
 	}
 	
-	public void printInfo()
-	{	
+	public void printInfo() {	
 		TeacherName("담당");
 		TeacherName("선생님 :", "오은수");
 		System.out.println("이름: " + getName());
