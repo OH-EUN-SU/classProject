@@ -36,6 +36,6 @@ abstract public class Student {
 	}
 	
 	public abstract void printInfo();
-}
+}//
 
 

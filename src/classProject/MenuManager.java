@@ -21,7 +21,7 @@ public class MenuManager {
 			System.out.print("Select one number between 1 - 5 : ");
 			n = input.nextInt();
 			input.nextLine();
-			System.out.println("");
+			System.out.println();
 			if(n == 1) {
 				std_m.addStudents();
 			}
@@ -45,6 +45,6 @@ public class MenuManager {
 		}
 		 System.out.println("End.");
 	}
-}
+}//
 
 

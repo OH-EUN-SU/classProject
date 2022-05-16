@@ -20,7 +20,7 @@ public class CalculusStudent extends Student implements Subject {
 		System.out.println("전화번호: " + getPN());
 		System.out.println("과목: " + getSubject());
 		System.out.println("목표등급: " + getGoal());
-		System.out.println();
+		System.out.println("");
 	}
-}
+}//
 
