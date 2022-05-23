@@ -1,6 +1,12 @@
 package classProject;
 
-abstract public class Student {
+import java.io.Serializable;
+
+abstract public class Student implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1219826540388449953L;
 	private String name;
 	private String pn;
 	private String goal;
