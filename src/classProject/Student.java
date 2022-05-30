@@ -42,6 +42,5 @@ abstract public class Student implements Serializable {
 	}
 	
 	public abstract void printInfo();
-}//
-
-
+}
+//

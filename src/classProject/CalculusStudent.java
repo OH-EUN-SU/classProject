@@ -26,5 +26,6 @@ public class CalculusStudent extends Student implements Subject, Serializable {
 		System.out.println("목표등급: " + getGoal());
 		System.out.println("");
 	}
-}//
+}
+//
 

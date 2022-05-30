@@ -90,16 +90,15 @@ public class MenuManager {
 		}
 
 		return lesson_m;
-
 	}
 
-	public static void putObject(LessonManagementSystem std_m, String filename) {
+	public static void putObject(LessonManagementSystem lesson_m, String filename) {
 		
 		try {
 			FileOutputStream file = new FileOutputStream(filename);
 			ObjectOutputStream out = new ObjectOutputStream(file);
 
-			out.writeObject(std_m);
+			out.writeObject(lesson_m);
 
 			out.close();
 			file.close();
@@ -109,8 +108,7 @@ public class MenuManager {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-}//
+}
 
-
+//
