@@ -9,6 +9,7 @@ import java.io.ObjectOutputStream;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+import gui.WindowFrame;
 import log.EventLogger;
 
 public class MenuManager {
@@ -25,6 +26,9 @@ public class MenuManager {
 		} else {
 			lesson_m.input = input;
 		}
+		
+		WindowFrame frame = new WindowFrame(lesson_m);
+		
 		int n = 0;
 
 		while(n != 5)

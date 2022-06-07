@@ -23,6 +23,15 @@ public class LessonManagementSystem implements Serializable {
 		this.input = input;
 	}
 
+	
+	public int size() {
+		return cslist.size();
+	}
+	
+	public CalculusStudent get(int idex) {
+		return cslist.get(idex);
+	}
+	
 	public void addStudents() { //과외생을 추가하는 함수
 		CalculusStudent cs = new CalculusStudent();
 
