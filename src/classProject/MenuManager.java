@@ -1,5 +1,5 @@
 package classProject;
-
+ 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -68,6 +68,7 @@ public class MenuManager {
 				System.out.println("");
 			}
 		}
+		
 		putObject(lesson_m, "lesson_m.ser");
 		System.out.println("End.");
 	}

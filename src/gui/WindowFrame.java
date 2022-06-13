@@ -20,7 +20,7 @@ public class WindowFrame extends JFrame {
 		
 		this.lessonmanger = lessonmanger;
 		menuselection = new MenuSelection(this);
-		studentadder = new StudentAdder(this);
+		studentadder = new StudentAdder(this, this.lessonmanger);
 		studentviewer = new StudentViewer(this, this.lessonmanger);
 		
 		this.setUpPanel(menuselection);
@@ -61,3 +61,5 @@ public class WindowFrame extends JFrame {
 
 
 }
+
+

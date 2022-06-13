@@ -32,6 +32,14 @@ public class LessonManagementSystem implements Serializable {
 		return cslist.get(idex);
 	}
 	
+	public void addStudents(String subject, String name, String phone, String goal){
+		CalculusStudent student = new CalculusStudent();
+	}
+	
+	public void addStudents(CalculusStudent student) {
+		cslist.add(student);
+	}
+	
 	public void addStudents() { //과외생을 추가하는 함수
 		CalculusStudent cs = new CalculusStudent();
 

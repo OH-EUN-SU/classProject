@@ -1,2 +1,2 @@
-# classProject
+ssProject
 for class project
