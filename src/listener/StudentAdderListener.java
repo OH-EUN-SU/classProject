@@ -7,6 +7,7 @@ import javax.swing.JTextField;
 
 import classProject.CalculusStudent;
 import classProject.LessonManagementSystem;
+import classProject.MenuManager;
 import classProject.Student;
 
 public class StudentAdderListener implements ActionListener {
@@ -17,8 +18,9 @@ public class StudentAdderListener implements ActionListener {
 	JTextField fieldGoal;
 	
 	LessonManagementSystem lessonmanger;
+	MenuManager menuManager;
 
-	public StudentAdderListener(
+	public StudentAdderListener( 
 			JTextField fieldSubject, 
 			JTextField fieldName, 
 			JTextField fieldPhone,
@@ -40,6 +42,7 @@ public class StudentAdderListener implements ActionListener {
 		student.setPN(fieldPhone.getText());
 		student.setGoal(fieldGoal.getText());
 		lessonmanger.addStudents(student);
+		menuManager.putObject(lessonmanger, "lesson_m.ser");
 		student.printInfo();
 	}
 
